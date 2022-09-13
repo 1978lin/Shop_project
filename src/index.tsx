@@ -1,33 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './container/App/App'
 
-// const h1 = <h1>Hello world!</h1>;
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
-function App() {
-  return (
-    <>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          omnis mollitia officia quia possimus corporis, fuga est inventore
-          quas. Est sed aperiam accusamus. Fuga vel harum, error quibusdam
-          voluptatibus eaque?
-        </p>
-      </div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          omnis mollitia officia quia possimus corporis, fuga est inventore
-          quas. Est sed aperiam accusamus. Fuga vel harum, error quibusdam
-          voluptatibus eaque?
-        </p>
-      </div>
-    </>
-  );
-}
-
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
-
-root.render(<App />);
+root.render(<App />)
