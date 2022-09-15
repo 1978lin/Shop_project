@@ -22,7 +22,7 @@ const ProductListItem = ({
         <Card>
             <CardContent>
                 <h4 className="product-title">{name}</h4>
-                <div className="product-description red">{description}</div>
+                <div className="product-description">{description}</div>
                 <div className={`product-type`}>{type}</div>
                 <div className="product-feature">Capacity: {capacity} Gb</div>
                 <div className="product-price">$ {price} </div>
