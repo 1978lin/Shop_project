@@ -27,7 +27,7 @@ const ProductListItem = ({
                 <div className="product-feature">Capacity: {capacity} Gb</div>
                 <div className="product-price">$ {price} </div>
             </CardContent>
-            <CardActions>
+            <CardActions className="btn-wrap">
                 <Button variant="outlined"> Add to cart</Button>
             </CardActions>
         </Card>
