@@ -3,7 +3,7 @@ import { Card, CardActions, Button, CardContent } from '@mui/material'
 // import classes from './ProductListItem.module.css'
 import './ProductListItem.scss'
 
-type ProductProps = {
+export type ProductProps = {
     name: string
     description: string
     type: string
